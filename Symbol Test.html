@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: star-wars-roleplaying;
+            src: url(star-wars-roleplaying.otf);
+        }
+
+        p {
+            margin: 0;
+        }
+
+        span {
+            font-family: "star-wars-roleplaying";
+            font-size: 14px;
+        }
+
+        i:after {
+            font-style: normal;
+            font-family: "star-wars-roleplaying";
+            font-size: 14px;
+        }
+
+        i.pro:after {
+            content: "c";
+            color: goldenrod;
+        }
+        i.abi:after {
+            content: "d";
+            color: green;
+        }
+        i.boo:after {
+            content: "b";
+            color: skyblue;
+        }
+
+        i.set:after {
+            content: "b";
+            color: #444;
+        }
+        i.dif:after {
+            content: "d";
+            color: purple;
+        }
+        i.cha:after {
+            content: "c";
+            color: #f22;
+        }
+
+        i.tri:after {
+            content: "x";
+        }
+        i.suc:after {
+            content: "s";
+        }
+        i.adv:after {
+            content: "a";
+        }
+        i.thr:after {
+            content: "t";
+        }
+        i.fai:after {
+            content: "f";
+        }
+        i.des:after {
+            content: "y";
+        }
+
+    </style>
+</head>
+<body>
+<h1>Dice</h1>
+    <p><i class="pro"></i>: Proficiency</p>
+    <p><i class="abi"></i>: Ability</p>
+    <p><i class="boo"></i>: Boost</p>
+    <p><i class="set"></i>: Setback</p>
+    <p><i class="dif"></i>: Difficulty</p>
+    <p><i class="cha"></i>: Challenge</p>
+    <h1>Symbols</h1>
+    <p><i class="tri"></i>: Triumph</p>
+    <p><i class="suc"></i>: Success</p>
+    <p><i class="adv"></i>: Advantage</p>
+    <p><i class="thr"></i>: Threat</p>
+    <p><i class="fai"></i>: Failure</p>
+    <p><i class="des"></i>: Despair</p>
+</body>
+</html>
